@@ -7,9 +7,9 @@ router.get("/", (req, res, next) => {
 });
 
 router.get("/:date", (req, res, next) => {
-  const encodeMistakeDate = encodeURIComponent(req.params.date);
+  const MistakeDate = req.params.date;
   const reqestedMistakeData = MistakesArray.filter(
-    mistake => mistake.date === decodeURIComponent(encodeMistakeDate)
+    mistake => mistake.date === MistakeDate
   );
   res.status(200);
   res.send(reqestedMistakeData);
