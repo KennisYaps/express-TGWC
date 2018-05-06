@@ -36,12 +36,6 @@ const MistakesArray = [
       "If you copy/paste a code section to only change a line after that, you are simply duplicating code and making a bigger mess. In the context of the messy room example above, this would be like introducing another chair with a lower base instead of investing in a new chair that is height-adjustable. Always keep the concept of abstraction in your mind and use it when you can."
   },
   {
-    date: "7-May-2018",
-    title: "Not Quitting",
-    text:
-      "Another mistake that I have made more often than I cared to admit is sticking with the first solution even after I identify that it might not be the simplest approach. This is probably psychologically related to the “not-quitting” mentality. This is a good mentality to have in most activities, but it should not apply to programming. In fact, when it comes to writing programs, the right mentality is fail early and fail often.The minute you begin doubting a solution, you should consider throwing it away and re-thinking the problem. This is true no matter how much you were invested in that solution. Source control tools like GIT can help you branch off and experiment with many different solutions. Leverage that."
-  },
-  {
     date: "8-May-2018",
     title: "Writing Comments About the Obvious Things",
     text:
